@@ -1,0 +1,94 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/taxonomy\/term\/2?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tipo_de_modulo"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/tipo_de_modulo\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 2
+        }
+    ],
+    "uuid": [
+        {
+            "value": "7b3cd5b7-56df-4036-a679-8440632f9805"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 2
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "tipo_de_modulo"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-05-21T02:47:49+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Audio",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>Modulo que se enfoca en controlar audio.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Modulo que se enfoca en controlar audio.<\/p>",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/tipo_de_modulo\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-05-21T02:47:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}
