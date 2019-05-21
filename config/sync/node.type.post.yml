@@ -1,0 +1,18 @@
+uuid: 17e7899e-6490-41ae-a0b0-aef96b1dffeb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Post
+type: post
+description: 'Son los post basados, en explicar de forma general o detallada, modulos de drupal que fueron expuestos por varias personas, en el 2019.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
