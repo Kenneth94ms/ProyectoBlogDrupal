@@ -3,17 +3,17 @@ langcode: en
 status: true
 dependencies:
   config:
+    - entity_browser.browser.mediabrowser
     - field.field.node.post.body
     - field.field.node.post.field_categoria
     - field.field.node.post.field_comentarios
     - field.field.node.post.field_enlaces_relacionados
-    - field.field.node.post.field_imagen
+    - field.field.node.post.field_mediabrowserprueba
     - field.field.node.post.field_palabras_clave1
-    - image.style.thumbnail
     - node.type.post
   module:
     - comment
-    - image
+    - entity_browser
     - link
     - text
 id: node.post.default
@@ -37,7 +37,7 @@ content:
     type: options_buttons
     region: content
   field_comentarios:
-    weight: 26
+    weight: 6
     settings: {  }
     third_party_settings: {  }
     type: comment_default
@@ -50,13 +50,19 @@ content:
     third_party_settings: {  }
     type: link_default
     region: content
-  field_imagen:
+  field_mediabrowserprueba:
     weight: 2
     settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
+      entity_browser: mediabrowser
+      field_widget_display: label
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_replace: false
+      open: false
+      field_widget_display_settings: {  }
     third_party_settings: {  }
-    type: image_image
+    type: entity_browser_entity_reference
     region: content
   field_palabras_clave1:
     weight: 4

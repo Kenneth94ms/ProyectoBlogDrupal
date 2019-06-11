@@ -9,14 +9,14 @@ dependencies:
     - field.field.node.post.field_categoria
     - field.field.node.post.field_comentarios
     - field.field.node.post.field_enlaces_relacionados
-    - field.field.node.post.field_imagen
+    - field.field.node.post.field_mediabrowserprueba
     - field.field.node.post.field_palabras_clave1
     - image.style.large
     - node.type.post
   module:
     - comment
-    - image
     - link
+    - media
     - text
     - user
 id: node.post.full
@@ -60,15 +60,15 @@ content:
     third_party_settings: {  }
     type: link
     region: content
-  field_imagen:
+  field_mediabrowserprueba:
+    type: media_thumbnail
     weight: 2
+    region: content
     label: above
     settings:
       image_style: large
       image_link: ''
     third_party_settings: {  }
-    type: image
-    region: content
   field_palabras_clave1:
     weight: 4
     label: above

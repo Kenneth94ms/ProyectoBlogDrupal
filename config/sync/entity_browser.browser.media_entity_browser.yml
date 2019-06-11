@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - views.view.archive
     - views.view.media_entity_browser
   module:
     - entity_browser_entity_form
@@ -17,8 +18,10 @@ display_configuration:
   height: '500'
   link_text: 'Select media'
   auto_open: true
-selection_display: no_display
-selection_display_configuration: {  }
+selection_display: view
+selection_display_configuration:
+  view: archive
+  view_display: default
 widget_selector: tabs
 widget_selector_configuration: {  }
 widgets:

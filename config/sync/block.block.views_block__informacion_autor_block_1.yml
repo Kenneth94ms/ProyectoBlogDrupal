@@ -1,0 +1,32 @@
+uuid: df182c80-b704-4a70-a313-871f2126a35e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.informacion_autor
+  module:
+    - ctools
+    - views
+  theme:
+    - bartik
+id: views_block__informacion_autor_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:informacion_autor-block_1'
+settings:
+  id: 'views_block:informacion_autor-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      post: post
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
