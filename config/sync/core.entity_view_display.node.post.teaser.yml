@@ -6,13 +6,14 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.post.body
     - field.field.node.post.field_categoria
+    - field.field.node.post.field_comentarios
     - field.field.node.post.field_enlaces_relacionados
-    - field.field.node.post.field_imagen
+    - field.field.node.post.field_mediabrowserprueba
     - field.field.node.post.field_palabras_clave1
-    - image.style.thumbnail
+    - image.style.medium
     - node.type.post
   module:
-    - image
+    - media
     - text
     - user
 id: node.post.teaser
@@ -23,7 +24,7 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 2
+    weight: 1
     settings:
       trim_length: 600
     third_party_settings: {  }
@@ -36,13 +37,13 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-  field_imagen:
-    type: image
-    weight: 1
+  field_mediabrowserprueba:
+    type: media_thumbnail
+    weight: 2
     region: content
     label: above
     settings:
-      image_style: thumbnail
+      image_style: medium
       image_link: ''
     third_party_settings: {  }
   links:
@@ -51,5 +52,6 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_comentarios: true
   field_enlaces_relacionados: true
   field_palabras_clave1: true

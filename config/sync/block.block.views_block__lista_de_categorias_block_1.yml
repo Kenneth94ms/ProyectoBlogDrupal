@@ -5,6 +5,7 @@ dependencies:
   config:
     - views.view.lista_de_categorias
   module:
+    - system
     - views
   theme:
     - bartik
@@ -21,4 +22,9 @@ settings:
   label_display: visible
   views_label: ''
   items_per_page: none
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /categoriaspost
+    negate: true
+    context_mapping: {  }

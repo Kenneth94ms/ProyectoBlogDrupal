@@ -281,7 +281,7 @@ display:
         type: normal
         title: Posts
         menu_name: main
-        weight: 1
+        weight: -49
       filters:
         status:
           value: '1'
