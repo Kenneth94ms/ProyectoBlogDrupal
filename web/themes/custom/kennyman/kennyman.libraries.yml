@@ -1,0 +1,10 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/kennyman.style.css: {}
+  js:
+    assets/js/kennyman.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
