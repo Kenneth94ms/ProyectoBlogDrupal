@@ -11,7 +11,16 @@ the [Documentation on drupal.org](https://www.drupal.org/node/2471553).
 
 ##Install instructions
 
+For install this projectyou need use, ddev and composer.
 
+Steps:
+
+* use `ddev start` for begin
+* use `ddev composer install` for create the core of site
+* use `ddev exec drush si --db-url=mysql://db:db@db/db --existing-config` to import the configuration.
+* use `ddev exec drush dcdi` for import default content.
+
+Finish, enjoy your New site PostCommunity
 
 ## Usage
 
