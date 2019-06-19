@@ -9,7 +9,7 @@ If you want to know how to use it as replacement for
 [Drush Make](https://github.com/drush-ops/drush/blob/8.x/docs/make.md) visit
 the [Documentation on drupal.org](https://www.drupal.org/node/2471553).
 
-##Install instructions
+#Install instructions
 
 For install this projectyou need use, ddev and composer.
 
@@ -17,10 +17,18 @@ Steps:
 
 * use `ddev start` for begin
 * use `ddev composer install` for create the core of site
-* use `ddev exec drush si --db-url=mysql://db:db@db/db --existing-config` to import the configuration.
-* use `ddev exec drush dcdi` for import default content.
 
-Finish, enjoy your New site PostCommunity
+##If you use drush9 use this command:
+
+* use `ddev exec drush si --db-url=mysql://db:db@db/db --existing-config` for this drush
+
+##If you use drush8 use this command:
+
+* use `ddev exec drush si --db-url=mysql://db:db@db/db --config-dir=../config/sync` to import the configuration.
+* use `ddev exec drush dcdi` for import default content.
+* use `ddev exec drush uli` for configure user and password for the site, and select [Administrator user] in roles.
+
+Finish, enjoy your New site PostCommunity.
 
 ## Usage
 
