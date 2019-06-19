@@ -1,0 +1,54 @@
+/**
+ * @file
+ * Visual styles for Bartik's blocks.
+ */
+
+/* Block has its own content wrapper. */
+@import url('https://fonts.googleapis.com/css?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One&display=swap');
+
+.block .content {
+  margin-top: 10px;
+}
+
+.post--content .node--view-mode-teaser{
+  background-color: #fff;
+  color: black;
+  padding: 20px;
+}
+
+.post--content .views-row{
+  background-color: #fff;
+  padding: 5px;
+  color: black;
+  margin: 8px 0;
+}
+
+.post--content .views-row a{
+  color: black;
+  transition: 0.5s;
+}
+
+article .node__title{
+  color: black;
+  font-size: 20px;
+  font-family: 'Francois One', sans-serif;
+}
+
+.post--content .views-row a:hover{
+  color: #ff6768;
+}
+
+.region-sidebar-second, .region-sidebar-first{
+  background-color: #ff6768;
+  padding: 20px;
+}
+
+.region-sidebar-second a, .region-sidebar-first a, h2{
+  color: black;
+}
+
+.site-branding__name a{
+  font-size: 35px;
+  font-family: 'Racing Sans One', cursive;
+}
