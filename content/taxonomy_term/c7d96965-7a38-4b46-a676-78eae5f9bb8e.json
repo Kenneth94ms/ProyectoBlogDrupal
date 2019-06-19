@@ -1,0 +1,94 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/proyectofinalpost.ddev.local\/taxonomy\/term\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tipo_de_modulo"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/tipo_de_modulo\/parent": [
+            null
+        ]
+    },
+    "tid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "c7d96965-7a38-4b46-a676-78eae5f9bb8e"
+        }
+    ],
+    "revision_id": [
+        {
+            "value": 1
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "tipo_de_modulo"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2019-05-21T02:47:31+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "name": [
+        {
+            "value": "Multimedia",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "value": "<p>Modulo que administra varios tipos de archivos multimedia.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Modulo que administra varios tipos de archivos multimedia.<\/p>",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": 0
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/tipo_de_modulo\/parent": [
+            null
+        ]
+    },
+    "changed": [
+        {
+            "value": "2019-05-21T02:47:31+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}

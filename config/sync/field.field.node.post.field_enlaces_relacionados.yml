@@ -1,0 +1,23 @@
+uuid: 54d8ff36-6713-4f5c-88cd-45bfb8adc40e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_enlaces_relacionados
+    - node.type.post
+  module:
+    - link
+id: node.post.field_enlaces_relacionados
+field_name: field_enlaces_relacionados
+entity_type: node
+bundle: post
+label: 'Enlaces Relacionados'
+description: 'Son los links, que se usan para guiar a otros articulos o contenidos con similitudes al mostrado en este Post.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

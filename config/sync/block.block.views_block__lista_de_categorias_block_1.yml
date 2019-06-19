@@ -1,0 +1,30 @@
+uuid: 2457d534-fbd4-4dd1-b070-7237087c784d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.lista_de_categorias
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__lista_de_categorias_block_1
+theme: bartik
+region: sidebar_second
+weight: -6
+provider: null
+plugin: 'views_block:lista_de_categorias-block_1'
+settings:
+  id: 'views_block:lista_de_categorias-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /categoriaspost
+    negate: true
+    context_mapping: {  }

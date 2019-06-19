@@ -1,0 +1,20 @@
+uuid: a951179f-4d7d-4920-b138-34a4ec6c1821
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_palabras_clave1
+field_name: field_palabras_clave1
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

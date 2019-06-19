@@ -1,0 +1,12 @@
+uuid: 9e014a71-ec2f-4faa-8ff0-9356739636b8
+langcode: en
+status: true
+dependencies: {  }
+id: contacto
+label: Contacto
+recipients:
+  - proyectoDrupal12@gmail.com
+reply: ''
+weight: 0
+message: 'El mensaje ha sido enviado.'
+redirect: ''

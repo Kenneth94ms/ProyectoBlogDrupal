@@ -1,0 +1,21 @@
+uuid: c3661c11-dbec-4baa-8007-a6fb561f921d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_palabras_clave1
+    - node.type.post
+  module:
+    - text
+id: node.post.field_palabras_clave1
+field_name: field_palabras_clave1
+entity_type: node
+bundle: post
+label: 'Palabras Clave'
+description: 'En este apartado se incluyen las palabras que mejor definen el modulo en cuestion.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

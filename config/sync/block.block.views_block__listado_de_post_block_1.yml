@@ -1,0 +1,30 @@
+uuid: dd3b2116-2118-4806-bdcd-e8499902dcd1
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.listado_de_post
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__listado_de_post_block_1
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:listado_de_post-block_1'
+settings:
+  id: 'views_block:listado_de_post-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '/taxonomy/*'
+    negate: false
+    context_mapping: {  }

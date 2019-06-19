@@ -1,0 +1,25 @@
+uuid: 8725e341-661c-4aa3-a861-80386d289e8c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9834849b-fa80-4a42-874c-e5e363d0fffc'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: elblogdekennyman
+theme: bartik
+region: footer_fourth
+weight: 0
+provider: null
+plugin: 'block_content:9834849b-fa80-4a42-874c-e5e363d0fffc'
+settings:
+  id: 'block_content:9834849b-fa80-4a42-874c-e5e363d0fffc'
+  label: 'El blog de Kenny Man'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
