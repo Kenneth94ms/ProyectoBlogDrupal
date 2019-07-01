@@ -1,0 +1,4 @@
+moduloapi:
+  title: 'My Permission'
+  description: 'My description'
+  restrict access: false

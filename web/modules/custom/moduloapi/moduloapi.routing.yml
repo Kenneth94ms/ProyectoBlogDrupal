@@ -1,0 +1,6 @@
+moduloapi.moduloapi:
+  path: '/moduloapi'
+  defaults:
+    _controller: 'Drupal\moduloapi\Controller\ModuloApiController::display_text'
+  requirements:
+    _permission: 'access content'

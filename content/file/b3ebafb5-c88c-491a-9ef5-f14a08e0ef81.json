@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/Bloodborne1.jpg"
+            "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/path_auto_0_0.png"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -14,12 +14,12 @@
     },
     "fid": [
         {
-            "value": 1
+            "value": 3
         }
     ],
     "uuid": [
         {
-            "value": "50247c29-720f-4e32-a705-a8db8947f009"
+            "value": "b3ebafb5-c88c-491a-9ef5-f14a08e0ef81"
         }
     ],
     "langcode": [
@@ -40,7 +40,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "92bae45f-60ab-4a65-accc-94d7a3d4ad43"
+                        "value": "6d6ad9b8-f2ca-480d-9741-421f8d26b912"
                     }
                 ]
             }
@@ -48,23 +48,23 @@
     },
     "filename": [
         {
-            "value": "Bloodborne1.jpg"
+            "value": "path_auto_0_0.png"
         }
     ],
     "uri": [
         {
-            "value": "public:\/\/Bloodborne1.jpg",
-            "url": "\/sites\/default\/files\/Bloodborne1.jpg"
+            "value": "public:\/\/path_auto_0_0.png",
+            "url": "\/sites\/default\/files\/path_auto_0_0.png"
         }
     ],
     "filemime": [
         {
-            "value": "image\/jpeg"
+            "value": "image\/png"
         }
     ],
     "filesize": [
         {
-            "value": 3022414
+            "value": 17898
         }
     ],
     "status": [
@@ -74,13 +74,13 @@
     ],
     "created": [
         {
-            "value": "2019-06-19T00:50:36+00:00",
+            "value": "2019-07-01T04:20:15+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2019-06-19T00:50:39+00:00",
+            "value": "2019-07-01T04:20:17+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ]

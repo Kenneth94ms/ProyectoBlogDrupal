@@ -41,7 +41,7 @@ content:
     type: media_thumbnail
     weight: 2
     region: content
-    label: above
+    label: hidden
     settings:
       image_style: medium
       image_link: ''

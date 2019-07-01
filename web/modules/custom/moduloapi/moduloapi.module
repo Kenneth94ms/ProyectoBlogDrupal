@@ -1,0 +1,41 @@
+<?php
+/**
+ * @file
+ * Module file for moduloapi
+ */
+use \Drupal\Core\Routing\RouteMatchInterface;
+
+ function moduloapi_help($route_name, \Drupal\Core\Routing\RouteMatchInterface $route_match){
+  switch ($route_name){
+    case 'help.page.moduloapi':
+      return t('
+      <h1>Modulo API Help</h1>
+      <p>Sed ullamcorper, augue vel dignissim tristique, ipsum nulla consequat nisi, sed blandit nisl
+        ante at tellus. Fusce interdum elementum tortor, in convallis lacus. Mauris tincidunt, lectus
+        id dapibus gravida, massa massa vehicula elit, ut fermentum odio ex ac orci. Integer ex nisi,
+        congue vitae libero at, aliquam vulputate metus. Vestibulum vitae urna nisl. Cras condimentum
+        libero a dapibus faucibus. Quisque sit amet ligula dictum quam pellentesque tincidunt. In eu
+        quam eleifend, facilisis ligula id, congue lectus. Fusce ac porta sapien, a tristique justo.
+        Etiam posuere gravida lorem ut dignissim. Donec tempor leo pellentesque ante imperdiet
+        volutpat. Praesent tellus ligula, tristique vitae neque in, ultricies mattis tellus.
+        Pellentesque ac venenatis tortor, nec tincidunt tellus. Cras at mi id est lobortis 
+        facilisis et non lectus. Donec facilisis ullamcorper libero in sollicitudin.</p>
+      ');
+  }
+ }
+
+  /**
+  * Implements hook_theme().
+  */
+
+  function moduloapi_theme($existing, $type, $theme, $path){
+    $variables = [
+      'modapitwit' => [
+        'variables' => [
+          'text' => [],
+        ],
+        'template' => 'modapitwit',
+      ],
+     ];
+     return $variables;
+  }

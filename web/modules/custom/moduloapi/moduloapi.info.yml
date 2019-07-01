@@ -1,0 +1,6 @@
+name: Modulo que trae el API
+type: module
+description: 'Modulo que trae un API'
+package: Custom
+version: 1.0
+core: 8.x

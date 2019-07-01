@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/proyectofinalpost.ddev.local\/media\/1\/edit?_format=hal_json"
+            "href": "http:\/\/proyectofinalpost.ddev.local\/media\/2\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
@@ -14,24 +14,30 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png",
+                "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/path_auto_0_0.png",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/path_auto_0_0.png",
                 "lang": "en"
             }
         ]
     },
     "mid": [
         {
-            "value": 1
+            "value": 2
         }
     ],
     "uuid": [
         {
-            "value": "57ca5cc3-e2e3-4a3c-9912-8efe9d9bc0f4"
+            "value": "0986cb3e-8c85-4e7e-b606-736e9d920cf2"
         }
     ],
     "vid": [
         {
-            "value": 1
+            "value": 2
         }
     ],
     "langcode": [
@@ -47,7 +53,7 @@
     ],
     "revision_created": [
         {
-            "value": "2019-06-19T02:55:14+00:00",
+            "value": "2019-07-01T04:20:17+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -80,7 +86,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png"
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/path_auto_0_0.png"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -88,7 +94,25 @@
                 },
                 "uuid": [
                     {
-                        "value": "ee994ea8-d9ea-466b-baac-d496c543a359"
+                        "value": "b3ebafb5-c88c-491a-9ef5-f14a08e0ef81"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/path_auto_0_0.png"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b3ebafb5-c88c-491a-9ef5-f14a08e0ef81"
                     }
                 ],
                 "lang": "en"
@@ -97,20 +121,20 @@
     },
     "name": [
         {
-            "value": "Bloodborne1.jpg",
+            "value": "path_auto_0_0.png",
             "lang": "en"
         }
     ],
     "created": [
         {
-            "value": "2019-06-19T00:50:39+00:00",
+            "value": "2019-07-01T04:20:17+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2019-06-19T00:50:39+00:00",
+            "value": "2019-07-01T04:20:17+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

@@ -1,27 +1,23 @@
-uuid: df182c80-b704-4a70-a313-871f2126a35e
+uuid: 7b71645e-4e0c-4b39-aa95-3ce11c68b563
 langcode: en
 status: true
 dependencies:
-  config:
-    - views.view.informacion_autor
   module:
     - ctools
-    - views
+    - moduloapi
   theme:
     - bartik
-id: views_block__informacion_autor_block_1
+id: helloblock
 theme: bartik
 region: sidebar_first
-weight: -10
+weight: -9
 provider: null
-plugin: 'views_block:informacion_autor-block_1'
+plugin: moduloapi
 settings:
-  id: 'views_block:informacion_autor-block_1'
-  label: ''
-  provider: views
+  id: moduloapi
+  label: 'Hello block'
+  provider: moduloapi
   label_display: visible
-  views_label: ''
-  items_per_page: none
 visibility:
   'entity_bundle:node':
     id: 'entity_bundle:node'
