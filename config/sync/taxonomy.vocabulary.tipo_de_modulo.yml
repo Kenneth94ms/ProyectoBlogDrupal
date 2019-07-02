@@ -2,7 +2,7 @@ uuid: 9d09a7f8-3b80-4964-8b94-895b434f507d
 langcode: en
 status: true
 dependencies: {  }
-name: 'Tipo de Modulo'
+name: 'Type of module'
 vid: tipo_de_modulo
-description: 'La clasificacion, que tienen los modulos segun su funcion.'
+description: 'Clasification have modules about fucntion.'
 weight: 0

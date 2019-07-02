@@ -11,10 +11,10 @@ id: node.post.field_palabras_clave1
 field_name: field_palabras_clave1
 entity_type: node
 bundle: post
-label: 'Palabras Clave'
-description: 'En este apartado se incluyen las palabras que mejor definen el modulo en cuestion.'
+label: 'Key words'
+description: 'This part include keywords that better defined of module.'
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings: {  }

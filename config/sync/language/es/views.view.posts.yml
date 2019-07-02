@@ -1,0 +1,17 @@
+label: 'Post recientes'
+display:
+  block_1:
+    display_options:
+      title: 'Post recientes'
+  page_1:
+    display_options:
+      filters:
+        title:
+          expose:
+            label: 'Nombre del post'
+        body_value:
+          expose:
+            label: Descripcion
+        uid:
+          expose:
+            label: Autor

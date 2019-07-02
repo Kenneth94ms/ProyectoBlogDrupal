@@ -1,27 +1,24 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/proyectofinalpost.ddev.local\/media\/2\/edit?_format=hal_json"
+            "href": "http:\/\/proyectofinalpost.ddev.local\/en\/media\/2\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
         },
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/uid": [
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/user\/1?_format=hal_json",
-                "lang": "en"
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/path_auto_0_0.png",
-                "lang": "en"
+                "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/path_auto_0_0.png"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_media_image": [
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/path_auto_0_0.png",
-                "lang": "en"
+                "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/path_auto_0_0.png"
             }
         ]
     },
@@ -59,8 +56,7 @@
     ],
     "status": [
         {
-            "value": true,
-            "lang": "en"
+            "value": true
         }
     ],
     "_embedded": {
@@ -68,7 +64,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/proyectofinalpost.ddev.local\/user\/1?_format=hal_json"
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -78,8 +74,7 @@
                     {
                         "value": "6d6ad9b8-f2ca-480d-9741-421f8d26b912"
                     }
-                ],
-                "lang": "en"
+                ]
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
@@ -96,8 +91,7 @@
                     {
                         "value": "b3ebafb5-c88c-491a-9ef5-f14a08e0ef81"
                     }
-                ],
-                "lang": "en"
+                ]
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_media_image": [
@@ -114,28 +108,24 @@
                     {
                         "value": "b3ebafb5-c88c-491a-9ef5-f14a08e0ef81"
                     }
-                ],
-                "lang": "en"
+                ]
             }
         ]
     },
     "name": [
         {
-            "value": "path_auto_0_0.png",
-            "lang": "en"
+            "value": "path_auto_0_0.png"
         }
     ],
     "created": [
         {
             "value": "2019-07-01T04:20:17+00:00",
-            "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
             "value": "2019-07-01T04:20:17+00:00",
-            "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],

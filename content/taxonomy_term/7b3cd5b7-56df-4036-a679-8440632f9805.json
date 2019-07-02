@@ -1,13 +1,23 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/proyectofinalpost.ddev.local\/taxonomy\/term\/2?_format=hal_json"
+            "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/2?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tipo_de_modulo"
         },
         "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/tipo_de_modulo\/parent": [
             null
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/tipo_de_modulo\/content_translation_uid": [
+            {
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/0?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json",
+                "lang": "es"
+            }
         ]
     },
     "tid": [
@@ -29,6 +39,10 @@
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "es",
+            "lang": "es"
         }
     ],
     "vid": [
@@ -46,20 +60,34 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "es"
         }
     ],
     "name": [
         {
             "value": "Audio",
             "lang": "en"
+        },
+        {
+            "value": "Audio",
+            "lang": "es"
         }
     ],
     "description": [
         {
+            "value": "<p>Module focus on control audio.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Module focus on control audio.<\/p>",
+            "lang": "en"
+        },
+        {
             "value": "<p>Modulo que se enfoca en controlar audio.<\/p>\r\n",
             "format": "basic_html",
             "processed": "<p>Modulo que se enfoca en controlar audio.<\/p>",
-            "lang": "en"
+            "lang": "es"
         }
     ],
     "weight": [
@@ -70,12 +98,51 @@
     "_embedded": {
         "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/tipo_de_modulo\/parent": [
             null
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/taxonomy_term\/tipo_de_modulo\/content_translation_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e8074268-3fb6-4641-92be-94f6e3c88ff7"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6d6ad9b8-f2ca-480d-9741-421f8d26b912"
+                    }
+                ],
+                "lang": "es"
+            }
         ]
     },
     "changed": [
         {
-            "value": "2019-05-21T02:47:49+00:00",
+            "value": "2019-07-01T23:14:10+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2019-07-01T23:10:07+00:00",
+            "lang": "es",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -83,12 +150,52 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "es"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "es"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        }
+    ],
+    "content_translation_created": [
+        {
+            "value": "2019-07-01T23:14:10+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2019-07-01T23:10:07+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
         }
     ]
 }

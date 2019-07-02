@@ -10,10 +10,10 @@ id: node.post.field_categoria
 field_name: field_categoria
 entity_type: node
 bundle: post
-label: Categoría
-description: 'Se refiere a como clasificaria el modulo, o el uso que el mismo posee.'
+label: Category
+description: 'Refer to how module is clasified or use of himself.'
 required: true
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

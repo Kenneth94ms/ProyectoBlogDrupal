@@ -248,7 +248,7 @@ display:
             operator: ''
           group: 1
       sorts: {  }
-      title: 'Informacion Autor'
+      title: 'Autor information'
       header: {  }
       footer: {  }
       empty: {  }

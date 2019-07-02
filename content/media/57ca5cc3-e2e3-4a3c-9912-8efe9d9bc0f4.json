@@ -1,21 +1,19 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/proyectofinalpost.ddev.local\/media\/1\/edit?_format=hal_json"
+            "href": "http:\/\/proyectofinalpost.ddev.local\/en\/media\/1\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
         },
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/uid": [
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/user\/1?_format=hal_json",
-                "lang": "en"
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png",
-                "lang": "en"
+                "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/media-icons\/generic\/no-thumbnail.png"
             }
         ]
     },
@@ -53,8 +51,7 @@
     ],
     "status": [
         {
-            "value": true,
-            "lang": "en"
+            "value": true
         }
     ],
     "_embedded": {
@@ -62,7 +59,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/proyectofinalpost.ddev.local\/user\/1?_format=hal_json"
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -72,8 +69,7 @@
                     {
                         "value": "6d6ad9b8-f2ca-480d-9741-421f8d26b912"
                     }
-                ],
-                "lang": "en"
+                ]
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
@@ -90,28 +86,24 @@
                     {
                         "value": "ee994ea8-d9ea-466b-baac-d496c543a359"
                     }
-                ],
-                "lang": "en"
+                ]
             }
         ]
     },
     "name": [
         {
-            "value": "Bloodborne1.jpg",
-            "lang": "en"
+            "value": "Bloodborne1.jpg"
         }
     ],
     "created": [
         {
             "value": "2019-06-19T00:50:39+00:00",
-            "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
             "value": "2019-06-19T00:50:39+00:00",
-            "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],

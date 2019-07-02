@@ -184,10 +184,13 @@ display:
       path: acerca
       menu:
         type: normal
-        title: Acerca
+        title: About
         menu_name: main
         weight: -46
         enabled: false
+        description: ''
+        parent: ''
+        expanded: false
     cache_metadata:
       max-age: -1
       contexts:

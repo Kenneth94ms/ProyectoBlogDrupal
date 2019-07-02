@@ -142,7 +142,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'Post por Categorias'
+      title: 'Post for category'
       header: {  }
       footer: {  }
       empty: {  }

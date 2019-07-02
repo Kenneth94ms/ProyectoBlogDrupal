@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/proyectofinalpost.ddev.local\/user\/1?_format=hal_json"
+            "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -57,13 +57,12 @@
     "changed": [
         {
             "value": "2019-06-19T03:16:30+00:00",
-            "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "access": [
         {
-            "value": "2019-07-01T04:31:04+00:00",
+            "value": "2019-07-02T03:45:02+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],

@@ -1,33 +1,36 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/proyectofinalpost.ddev.local\/node\/2?_format=hal_json"
+            "href": "http:\/\/proyectofinalpost.ddev.local\/en\/node\/2?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/post"
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/post\/revision_uid": [
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/user\/1?_format=hal_json"
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/post\/uid": [
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/user\/1?_format=hal_json",
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_categoria": [
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/taxonomy\/term\/9?_format=hal_json"
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/9?_format=hal_json",
+                "lang": "en"
             },
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/taxonomy\/term\/8?_format=hal_json"
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/8?_format=hal_json",
+                "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_mediabrowserprueba": [
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/media\/2\/edit?_format=hal_json"
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/media\/2\/edit?_format=hal_json",
+                "lang": "en"
             }
         ]
     },
@@ -68,7 +71,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/proyectofinalpost.ddev.local\/user\/1?_format=hal_json"
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -85,7 +88,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/proyectofinalpost.ddev.local\/user\/1?_format=hal_json"
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -103,7 +106,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/proyectofinalpost.ddev.local\/taxonomy\/term\/9?_format=hal_json"
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/9?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tipo_de_modulo"
@@ -113,12 +116,13 @@
                     {
                         "value": "ba88179c-4d6c-4cb7-8266-33a94889b11a"
                     }
-                ]
+                ],
+                "lang": "en"
             },
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/proyectofinalpost.ddev.local\/taxonomy\/term\/8?_format=hal_json"
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/8?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tipo_de_modulo"
@@ -128,14 +132,15 @@
                     {
                         "value": "c2cc03a0-ec7b-43ab-a879-4593819aeda9"
                     }
-                ]
+                ],
+                "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_mediabrowserprueba": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/proyectofinalpost.ddev.local\/media\/2\/edit?_format=hal_json"
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/media\/2\/edit?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
@@ -145,7 +150,8 @@
                     {
                         "value": "0986cb3e-8c85-4e7e-b606-736e9d920cf2"
                     }
-                ]
+                ],
+                "lang": "en"
             }
         ]
     },
@@ -199,6 +205,18 @@
             "lang": "en"
         }
     ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
     "body": [
         {
             "value": "<p>Modulo que se encarga de crear una URL amigable para los distintos contenidos de drupal8.<\/p>\r\n",
@@ -215,21 +233,24 @@
             "last_comment_timestamp": 1561954868,
             "last_comment_name": null,
             "last_comment_uid": 1,
-            "comment_count": 0
+            "comment_count": 0,
+            "lang": "en"
         }
     ],
     "field_enlaces_relacionados": [
         {
             "uri": "https:\/\/www.drupal.org\/project\/pathauto",
             "title": "Link en Drupal.org",
-            "options": []
+            "options": [],
+            "lang": "en"
         }
     ],
     "field_palabras_clave1": [
         {
             "value": "Phatauto, URL, texto",
             "format": "basic_html",
-            "processed": "Phatauto, URL, texto"
+            "processed": "Phatauto, URL, texto",
+            "lang": "en"
         }
     ]
 }

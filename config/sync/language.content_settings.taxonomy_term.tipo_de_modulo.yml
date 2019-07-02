@@ -1,0 +1,18 @@
+uuid: 3a4bc7d6-e08e-43d4-863e-416f6b260a2c
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tipo_de_modulo
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.tipo_de_modulo
+target_entity_type_id: taxonomy_term
+target_bundle: tipo_de_modulo
+default_langcode: site_default
+language_alterable: true

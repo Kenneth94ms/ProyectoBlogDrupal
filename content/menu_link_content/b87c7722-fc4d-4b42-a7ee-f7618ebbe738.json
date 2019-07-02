@@ -1,11 +1,17 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/proyectofinalpost.ddev.local\/admin\/structure\/menu\/item\/3\/edit?_format=hal_json"
+            "href": "http:\/\/proyectofinalpost.ddev.local\/en\/admin\/structure\/menu\/item\/3\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
-        }
+        },
+        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/menu_link_content\/content_translation_uid": [
+            {
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json",
+                "lang": "es"
+            }
+        ]
     },
     "id": [
         {
@@ -26,6 +32,10 @@
         {
             "value": "en",
             "lang": "en"
+        },
+        {
+            "value": "es",
+            "lang": "es"
         }
     ],
     "bundle": [
@@ -46,8 +56,12 @@
     ],
     "title": [
         {
-            "value": "Inicio",
+            "value": "Begin",
             "lang": "en"
+        },
+        {
+            "value": "Inicio",
+            "lang": "es"
         }
     ],
     "menu_name": [
@@ -84,8 +98,13 @@
     ],
     "changed": [
         {
-            "value": "2019-06-19T01:36:22+00:00",
+            "value": "2019-07-01T23:01:28+00:00",
             "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2019-07-01T23:02:40+00:00",
+            "lang": "es",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -93,12 +112,77 @@
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "es"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
             "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "es"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/menu_link_content\/menu_link_content\/content_translation_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6d6ad9b8-f2ca-480d-9741-421f8d26b912"
+                    }
+                ],
+                "lang": "es"
+            }
+        ]
+    },
+    "content_translation_status": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "content_translation_created": [
+        {
+            "value": "2019-07-01T23:02:40+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
         }
     ]
 }

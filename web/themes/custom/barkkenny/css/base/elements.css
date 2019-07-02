@@ -14,7 +14,7 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 87.5%;
   line-height: 1.5;
-  color: #fff;
+  color: #000;
 }
 a,
 a.link {
@@ -96,6 +96,7 @@ p {
   margin: 0 0 1.2em;
   font-size: 20px;
   font-family: 'Lora', serif;
+  color: #000;
 }
 del {
   text-decoration: line-through;

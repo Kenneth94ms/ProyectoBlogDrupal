@@ -16,7 +16,7 @@ provider: null
 plugin: 'block_content:9834849b-fa80-4a42-874c-e5e363d0fffc'
 settings:
   id: 'block_content:9834849b-fa80-4a42-874c-e5e363d0fffc'
-  label: 'El blog de Kenny Man'
+  label: 'Blog of KennyMan'
   provider: block_content
   label_display: visible
   status: true

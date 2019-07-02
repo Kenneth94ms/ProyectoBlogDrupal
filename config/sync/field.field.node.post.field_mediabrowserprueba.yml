@@ -10,10 +10,10 @@ id: node.post.field_mediabrowserprueba
 field_name: field_mediabrowserprueba
 entity_type: node
 bundle: post
-label: 'Cargar imagen'
-description: ''
+label: 'Load image'
+description: 'Image of modulo for ilustrated them.'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

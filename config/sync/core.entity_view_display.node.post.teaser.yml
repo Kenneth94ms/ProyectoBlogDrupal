@@ -55,3 +55,4 @@ hidden:
   field_comentarios: true
   field_enlaces_relacionados: true
   field_palabras_clave1: true
+  langcode: true

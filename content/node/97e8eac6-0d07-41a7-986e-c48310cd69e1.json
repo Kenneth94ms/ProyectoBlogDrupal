@@ -1,0 +1,406 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/proyectofinalpost.ddev.local\/en\/node\/3?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/post"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/revision_uid": [
+            {
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/uid": [
+            {
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json",
+                "lang": "es"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_categoria": [
+            {
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/6?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/8?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/6?_format=hal_json",
+                "lang": "es"
+            },
+            {
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/8?_format=hal_json",
+                "lang": "es"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_mediabrowserprueba": [
+            {
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/media\/3\/edit?_format=hal_json",
+                "lang": "en"
+            },
+            {
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/media\/3\/edit?_format=hal_json",
+                "lang": "es"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 3
+        }
+    ],
+    "uuid": [
+        {
+            "value": "97e8eac6-0d07-41a7-986e-c48310cd69e1"
+        }
+    ],
+    "vid": [
+        {
+            "value": 4
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        },
+        {
+            "value": "es",
+            "lang": "es"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "post"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-07-02T00:54:58+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6d6ad9b8-f2ca-480d-9741-421f8d26b912"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6d6ad9b8-f2ca-480d-9741-421f8d26b912"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6d6ad9b8-f2ca-480d-9741-421f8d26b912"
+                    }
+                ],
+                "lang": "es"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_categoria": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/6?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tipo_de_modulo"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bcc15a03-320e-4fd6-9b07-63567fe22bba"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tipo_de_modulo"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c2cc03a0-ec7b-43ab-a879-4593819aeda9"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/6?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tipo_de_modulo"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "bcc15a03-320e-4fd6-9b07-63567fe22bba"
+                    }
+                ],
+                "lang": "es"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/8?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tipo_de_modulo"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c2cc03a0-ec7b-43ab-a879-4593819aeda9"
+                    }
+                ],
+                "lang": "es"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_mediabrowserprueba": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/media\/3\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f0b9d29e-dcc1-4fb1-b55b-9f93de912350"
+                    }
+                ],
+                "lang": "en"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/media\/3\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f0b9d29e-dcc1-4fb1-b55b-9f93de912350"
+                    }
+                ],
+                "lang": "es"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "title": [
+        {
+            "value": "Google QR code generator",
+            "lang": "en"
+        },
+        {
+            "value": "Google QR code generador",
+            "lang": "es"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-07-02T00:53:12+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2019-07-02T00:54:58+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-02T00:54:05+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        },
+        {
+            "value": "2019-07-02T00:54:58+00:00",
+            "lang": "es",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "es"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        },
+        {
+            "value": "en",
+            "lang": "es"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        },
+        {
+            "value": false,
+            "lang": "es"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Module that alow put in the site a qr code for information about the page.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Module that alow put in the site a qr code for information about the page.<\/p>",
+            "summary": "",
+            "lang": "en"
+        },
+        {
+            "value": "<p>Modulo que permite poner un codigo qr en el sitio de forma facil.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Modulo que permite poner un codigo qr en el sitio de forma facil.<\/p>",
+            "summary": "",
+            "lang": "es"
+        }
+    ],
+    "field_comentarios": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1562028845,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0,
+            "lang": "en"
+        },
+        {
+            "status": 2,
+            "cid": null,
+            "last_comment_timestamp": null,
+            "last_comment_name": null,
+            "last_comment_uid": null,
+            "comment_count": null,
+            "lang": "es"
+        }
+    ],
+    "field_enlaces_relacionados": [
+        {
+            "uri": "https:\/\/www.drupal.org\/project\/google_qr_code",
+            "title": "Link in drpaul site",
+            "options": [],
+            "lang": "en"
+        },
+        {
+            "uri": "https:\/\/www.drupal.org\/project\/google_qr_code",
+            "title": "Enlace al sitio de drupal",
+            "options": [],
+            "lang": "es"
+        }
+    ],
+    "field_palabras_clave1": [
+        {
+            "value": "Google, qr. codes",
+            "format": "basic_html",
+            "processed": "Google, qr. codes",
+            "lang": "en"
+        },
+        {
+            "value": "Google, qr. codes",
+            "format": "basic_html",
+            "processed": "Google, qr. codes",
+            "lang": "es"
+        }
+    ]
+}

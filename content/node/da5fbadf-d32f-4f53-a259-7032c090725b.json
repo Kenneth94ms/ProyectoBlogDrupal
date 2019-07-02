@@ -1,30 +1,32 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/proyectofinalpost.ddev.local\/node\/1?_format=hal_json"
+            "href": "http:\/\/proyectofinalpost.ddev.local\/en\/node\/1?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/node\/post"
         },
         "http:\/\/drupal.org\/rest\/relation\/node\/post\/revision_uid": [
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/user\/1?_format=hal_json"
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/post\/uid": [
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/user\/1?_format=hal_json",
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_categoria": [
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/taxonomy\/term\/8?_format=hal_json"
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/8?_format=hal_json",
+                "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_mediabrowserprueba": [
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/media\/1\/edit?_format=hal_json"
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/media\/1\/edit?_format=hal_json",
+                "lang": "en"
             }
         ]
     },
@@ -65,7 +67,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/proyectofinalpost.ddev.local\/user\/1?_format=hal_json"
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -82,7 +84,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/proyectofinalpost.ddev.local\/user\/1?_format=hal_json"
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -100,7 +102,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/proyectofinalpost.ddev.local\/taxonomy\/term\/8?_format=hal_json"
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/8?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tipo_de_modulo"
@@ -110,14 +112,15 @@
                     {
                         "value": "c2cc03a0-ec7b-43ab-a879-4593819aeda9"
                     }
-                ]
+                ],
+                "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_mediabrowserprueba": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/proyectofinalpost.ddev.local\/media\/1\/edit?_format=hal_json"
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/media\/1\/edit?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
@@ -127,7 +130,8 @@
                     {
                         "value": "57ca5cc3-e2e3-4a3c-9912-8efe9d9bc0f4"
                     }
-                ]
+                ],
+                "lang": "en"
             }
         ]
     },
@@ -181,6 +185,18 @@
             "lang": "en"
         }
     ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
     "body": [
         {
             "value": "<p>Prueba para ver si funciona el texto<\/p>\r\n",
@@ -197,21 +213,24 @@
             "last_comment_timestamp": 1560905481,
             "last_comment_name": null,
             "last_comment_uid": 1,
-            "comment_count": 0
+            "comment_count": 0,
+            "lang": "en"
         }
     ],
     "field_enlaces_relacionados": [
         {
             "uri": "https:\/\/www.google.com",
             "title": "google",
-            "options": []
+            "options": [],
+            "lang": "en"
         }
     ],
     "field_palabras_clave1": [
         {
             "value": "prueba",
             "format": "basic_html",
-            "processed": "prueba"
+            "processed": "prueba",
+            "lang": "en"
         }
     ]
 }

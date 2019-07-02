@@ -11,10 +11,10 @@ id: node.post.field_comentarios
 field_name: field_comentarios
 entity_type: node
 bundle: post
-label: Comentarios
-description: 'Comenta sobre que te ha parecido el post del autor.'
+label: Coments
+description: 'Comment about your opinion of autor post.'
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     status: 2

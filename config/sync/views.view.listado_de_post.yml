@@ -157,7 +157,7 @@ display:
           exposed: false
           expose:
             label: ''
-      title: 'Listado de Post'
+      title: 'Post list'
       header: {  }
       footer: {  }
       empty: {  }

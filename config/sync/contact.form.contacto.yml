@@ -3,10 +3,10 @@ langcode: en
 status: true
 dependencies: {  }
 id: contacto
-label: Contacto
+label: Contact
 recipients:
   - proyectoDrupal12@gmail.com
 reply: ''
 weight: 0
-message: 'El mensaje ha sido enviado.'
+message: 'Message have been sended.'
 redirect: ''

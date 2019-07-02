@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: Post
 type: post
-description: 'Son los post basados, en explicar de forma general o detallada, modulos de drupal que fueron expuestos por varias personas, en el 2019.'
+description: 'They are post based on explain of general form or detail, modules of drupal exposed for amount of people.'
 help: ''
 new_revision: true
 preview_mode: 1
