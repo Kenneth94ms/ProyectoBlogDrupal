@@ -1,17 +1,17 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/proyectofinalpost.ddev.local\/en\/node\/3?_format=hal_json"
+            "href": "http:\/\/proyectofinalpost.ddev.local\/en\/node\/6?_format=hal_json"
         },
         "type": {
-            "href": "http:\/\/drupal.org\/rest\/type\/node\/post"
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/article"
         },
-        "http:\/\/drupal.org\/rest\/relation\/node\/post\/revision_uid": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
             {
                 "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/post\/uid": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
             {
                 "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json",
                 "lang": "en"
@@ -21,48 +21,40 @@
                 "lang": "es"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_categoria": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/6?_format=hal_json",
+                "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/2019-07\/dru.jpeg",
                 "lang": "en"
             },
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/8?_format=hal_json",
-                "lang": "en"
-            },
-            {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/6?_format=hal_json",
-                "lang": "es"
-            },
-            {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/8?_format=hal_json",
+                "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/2019-07\/dru.jpeg",
                 "lang": "es"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_mediabrowserprueba": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/media\/3\/edit?_format=hal_json",
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/11?_format=hal_json",
                 "lang": "en"
             },
             {
-                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/media\/3\/edit?_format=hal_json",
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/11?_format=hal_json",
                 "lang": "es"
             }
         ]
     },
     "nid": [
         {
-            "value": 3
+            "value": 6
         }
     ],
     "uuid": [
         {
-            "value": "97e8eac6-0d07-41a7-986e-c48310cd69e1"
+            "value": "69bd5cf4-d495-4225-991c-df32a71b1dab"
         }
     ],
     "vid": [
         {
-            "value": 4
+            "value": 9
         }
     ],
     "langcode": [
@@ -77,17 +69,17 @@
     ],
     "type": [
         {
-            "target_id": "post"
+            "target_id": "article"
         }
     ],
     "revision_timestamp": [
         {
-            "value": "2019-07-02T00:54:58+00:00",
+            "value": "2019-07-03T03:15:00+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "_embedded": {
-        "http:\/\/drupal.org\/rest\/relation\/node\/post\/revision_uid": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/revision_uid": [
             {
                 "_links": {
                     "self": {
@@ -104,7 +96,7 @@
                 ]
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/post\/uid": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/uid": [
             {
                 "_links": {
                     "self": {
@@ -138,19 +130,19 @@
                 "lang": "es"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_categoria": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_image": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/6?_format=hal_json"
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/2019-07\/dru.jpeg"
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tipo_de_modulo"
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "bcc15a03-320e-4fd6-9b07-63567fe22bba"
+                        "value": "ffa4b6b6-713d-4339-ade0-ae9447a585dd"
                     }
                 ],
                 "lang": "en"
@@ -158,65 +150,33 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/8?_format=hal_json"
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/2019-07\/dru.jpeg"
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tipo_de_modulo"
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "c2cc03a0-ec7b-43ab-a879-4593819aeda9"
-                    }
-                ],
-                "lang": "en"
-            },
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/6?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tipo_de_modulo"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "bcc15a03-320e-4fd6-9b07-63567fe22bba"
-                    }
-                ],
-                "lang": "es"
-            },
-            {
-                "_links": {
-                    "self": {
-                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/8?_format=hal_json"
-                    },
-                    "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tipo_de_modulo"
-                    }
-                },
-                "uuid": [
-                    {
-                        "value": "c2cc03a0-ec7b-43ab-a879-4593819aeda9"
+                        "value": "ffa4b6b6-713d-4339-ade0-ae9447a585dd"
                     }
                 ],
                 "lang": "es"
             }
         ],
-        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_mediabrowserprueba": [
+        "http:\/\/drupal.org\/rest\/relation\/node\/article\/field_tags": [
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/media\/3\/edit?_format=hal_json"
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/11?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "f0b9d29e-dcc1-4fb1-b55b-9f93de912350"
+                        "value": "9fd49258-9a96-4699-ab94-6e340101a609"
                     }
                 ],
                 "lang": "en"
@@ -224,15 +184,15 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/media\/3\/edit?_format=hal_json"
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/taxonomy\/term\/11?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/drupal.org\/rest\/type\/media\/image"
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/tags"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "f0b9d29e-dcc1-4fb1-b55b-9f93de912350"
+                        "value": "9fd49258-9a96-4699-ab94-6e340101a609"
                     }
                 ],
                 "lang": "es"
@@ -251,34 +211,34 @@
     ],
     "title": [
         {
-            "value": "Google QR code generator",
+            "value": "Proyect Post Drupal - Kennyman",
             "lang": "en"
         },
         {
-            "value": "Google QR code generador",
+            "value": "Proyecto Post Drupal - Kennyman",
             "lang": "es"
         }
     ],
     "created": [
         {
-            "value": "2019-07-02T00:53:12+00:00",
+            "value": "2019-07-03T03:08:52+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2019-07-02T00:54:58+00:00",
+            "value": "2019-07-03T03:14:33+00:00",
             "lang": "es",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
-            "value": "2019-07-02T00:54:05+00:00",
+            "value": "2019-07-03T03:14:27+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         },
         {
-            "value": "2019-07-02T00:54:58+00:00",
+            "value": "2019-07-03T03:15:00+00:00",
             "lang": "es",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -341,28 +301,28 @@
     ],
     "body": [
         {
-            "value": "<p>Module that alow put in the site a qr code for information about the page.<\/p>\r\n",
+            "value": "<p><span lang=\"en\"><span>Students: Adriel Mora, Clara Madrigal and Kenneth Mora<\/span><br \/>\r\n<br \/>\r\n<span>Final project of the drupal course, based on version 8 of the core, where the different abilities of the students were evaluated, both in the theming, site building and creation of modules to incorporate external functions to the site.<\/span><br \/>\r\n<br \/>\r\n<span>It was held throughout the first semester of 2019, and is one of the final courses for obtaining the bachelor's degree in ITM's career.<\/span><br \/>\r\n<br \/>\r\n<span>As such the site was designed to be a container of drupal modules with their respective documentation in which the teacher and colleagues observed different exhibitions throughout the course, acquiring new knowledge to improve in Drupal always a little more.<\/span><\/span><\/p>\r\n",
             "format": "basic_html",
-            "processed": "<p>Module that alow put in the site a qr code for information about the page.<\/p>",
+            "processed": "<p><span lang=\"en\" xml:lang=\"en\" xml:lang=\"en\"><span>Students: Adriel Mora, Clara Madrigal and Kenneth Mora<\/span><br \/><br \/><span>Final project of the drupal course, based on version 8 of the core, where the different abilities of the students were evaluated, both in the theming, site building and creation of modules to incorporate external functions to the site.<\/span><br \/><br \/><span>It was held throughout the first semester of 2019, and is one of the final courses for obtaining the bachelor's degree in ITM's career.<\/span><br \/><br \/><span>As such the site was designed to be a container of drupal modules with their respective documentation in which the teacher and colleagues observed different exhibitions throughout the course, acquiring new knowledge to improve in Drupal always a little more.<\/span><\/span><\/p>",
             "summary": "",
             "lang": "en"
         },
         {
-            "value": "<p>Modulo que permite poner un codigo qr en el sitio de forma facil.<\/p>\r\n",
+            "value": "<p>Estudiantes: Adriel Mora, Clara Madrigal y Kenneth Mora<\/p>\r\n\r\n<p>Proyecto final del curso de drupal, basado en la versi\u00f3n 8 del core, donde se evaluaron las distintas habilidades de los estudiantes, tanto en el theming, site building y creaci\u00f3n de m\u00f3dulos para incorporar funciones externas al sitio.<\/p>\r\n\r\n<p>El mismo se realizo a lo largo de primer semestre de 2019, y es un de los cursos finales para la obtenci\u00f3n del bachiller en la carrera de ITM.<\/p>\r\n\r\n<p>Como tal el sitio se ideo para ser un contenedor de m\u00f3dulos de drupal con su respectiva documentaci\u00f3n en la cual la profesora y los compa\u00f1eros, observaron distintas exposiciones a lo largo del curso, adquiriendo nuevos conocimientos para mejorar en Drupal siempre un poco mas.<\/p>\r\n",
             "format": "basic_html",
-            "processed": "<p>Modulo que permite poner un codigo qr en el sitio de forma facil.<\/p>",
+            "processed": "<p>Estudiantes: Adriel Mora, Clara Madrigal y Kenneth Mora<\/p>\n\n<p>Proyecto final del curso de drupal, basado en la versi\u00f3n 8 del core, donde se evaluaron las distintas habilidades de los estudiantes, tanto en el theming, site building y creaci\u00f3n de m\u00f3dulos para incorporar funciones externas al sitio.<\/p>\n\n<p>El mismo se realizo a lo largo de primer semestre de 2019, y es un de los cursos finales para la obtenci\u00f3n del bachiller en la carrera de ITM.<\/p>\n\n<p>Como tal el sitio se ideo para ser un contenedor de m\u00f3dulos de drupal con su respectiva documentaci\u00f3n en la cual la profesora y los compa\u00f1eros, observaron distintas exposiciones a lo largo del curso, adquiriendo nuevos conocimientos para mejorar en Drupal siempre un poco mas.<\/p>",
             "summary": "",
             "lang": "es"
         }
     ],
-    "field_comentarios": [
+    "comment": [
         {
             "status": 2,
-            "cid": 1,
-            "last_comment_timestamp": 1562081591,
-            "last_comment_name": "",
+            "cid": 0,
+            "last_comment_timestamp": 1562123479,
+            "last_comment_name": null,
             "last_comment_uid": 1,
-            "comment_count": 1,
+            "comment_count": 0,
             "lang": "en"
         },
         {
@@ -372,34 +332,6 @@
             "last_comment_name": null,
             "last_comment_uid": null,
             "comment_count": null,
-            "lang": "es"
-        }
-    ],
-    "field_enlaces_relacionados": [
-        {
-            "uri": "https:\/\/www.drupal.org\/project\/google_qr_code",
-            "title": "Link in drpaul site",
-            "options": [],
-            "lang": "en"
-        },
-        {
-            "uri": "https:\/\/www.drupal.org\/project\/google_qr_code",
-            "title": "Enlace al sitio de drupal",
-            "options": [],
-            "lang": "es"
-        }
-    ],
-    "field_palabras_clave1": [
-        {
-            "value": "Google, qr. codes",
-            "format": "basic_html",
-            "processed": "Google, qr. codes",
-            "lang": "en"
-        },
-        {
-            "value": "Google, qr. codes",
-            "format": "basic_html",
-            "processed": "Google, qr. codes",
             "lang": "es"
         }
     ]

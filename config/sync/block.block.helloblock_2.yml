@@ -1,0 +1,28 @@
+uuid: 87fd4a98-32b9-4b23-b23e-b6edd78154a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - moduloapi
+  theme:
+    - barkkenny
+id: helloblock_2
+theme: barkkenny
+region: sidebar_first
+weight: -10
+provider: null
+plugin: moduloapi
+settings:
+  id: moduloapi
+  label: 'Hello block'
+  provider: moduloapi
+  label_display: visible
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      post: post
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

@@ -11,6 +11,9 @@
 # 2. Sub-theme Bartik. This is only recommended if you want to make minor
 # tweaks and understand that Bartik could break your modifications as it
 # changes.
+#
+#THIS IS A SUBTHEME OF BARTIK FOLLOWIN THE INSTRUCTIONS BELOW AND OF THE DRUPAL DOCUMENTATION FOR SUBTHEMES
+#RENAMED THE FOLDER AND THE FILES
 name: Barkkenny
 type: theme
 base theme: classy
@@ -19,7 +22,7 @@ package: Core
 version: VERSION
 core: 8.x
 libraries:
-  - bartik/global-styling
+  - barkkenny/global-styling
 ckeditor_stylesheets:
   - css/base/elements.css
   - css/components/captions.css

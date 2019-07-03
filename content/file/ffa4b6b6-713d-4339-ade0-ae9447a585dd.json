@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/2019-07\/dru.jpeg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 9
+        }
+    ],
+    "uuid": [
+        {
+            "value": "ffa4b6b6-713d-4339-ade0-ae9447a585dd"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6d6ad9b8-f2ca-480d-9741-421f8d26b912"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "dru.jpeg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2019-07\/dru.jpeg",
+            "url": "\/sites\/default\/files\/2019-07\/dru.jpeg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 8934
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-07-03T03:10:25+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-03T03:11:19+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

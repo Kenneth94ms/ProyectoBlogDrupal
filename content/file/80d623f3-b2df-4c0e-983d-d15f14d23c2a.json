@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/46c3648e-072d-11e6-9e76-ce7eee3656f0.png"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/3?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 8
+        }
+    ],
+    "uuid": [
+        {
+            "value": "80d623f3-b2df-4c0e-983d-d15f14d23c2a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e28031b3-513e-4a7f-ad3d-fce31bc756d7"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "46c3648e-072d-11e6-9e76-ce7eee3656f0.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/46c3648e-072d-11e6-9e76-ce7eee3656f0.png",
+            "url": "\/sites\/default\/files\/46c3648e-072d-11e6-9e76-ce7eee3656f0.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 570691
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-07-03T01:13:08+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-03T01:13:11+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

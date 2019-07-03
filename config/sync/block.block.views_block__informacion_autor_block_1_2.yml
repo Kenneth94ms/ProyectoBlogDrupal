@@ -1,0 +1,32 @@
+uuid: e9393226-6d9b-47fd-ba03-1620272b5d62
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.informacion_autor
+  module:
+    - ctools
+    - views
+  theme:
+    - barkkenny
+id: views_block__informacion_autor_block_1_2
+theme: barkkenny
+region: sidebar_first
+weight: -11
+provider: null
+plugin: 'views_block:informacion_autor-block_1'
+settings:
+  id: 'views_block:informacion_autor-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      post: post
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

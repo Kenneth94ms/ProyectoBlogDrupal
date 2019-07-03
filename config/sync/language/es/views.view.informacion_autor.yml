@@ -1,0 +1,5 @@
+label: 'Informacion del Autor'
+display:
+  default:
+    display_options:
+      title: 'Informacion del autor'

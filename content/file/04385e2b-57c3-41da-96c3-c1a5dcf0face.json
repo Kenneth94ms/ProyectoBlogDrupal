@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/proyectofinalpost.ddev.local\/sites\/default\/files\/pictures\/2019-07\/gow3.jpeg"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 5
+        }
+    ],
+    "uuid": [
+        {
+            "value": "04385e2b-57c3-41da-96c3-c1a5dcf0face"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6d6ad9b8-f2ca-480d-9741-421f8d26b912"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "gow3.jpeg"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/pictures\/2019-07\/gow3.jpeg",
+            "url": "\/sites\/default\/files\/pictures\/2019-07\/gow3.jpeg"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/jpeg"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 313009
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-07-02T15:33:54+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-02T15:34:15+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

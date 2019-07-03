@@ -1,0 +1,25 @@
+uuid: c02f9ce4-10b1-4846-9647-e5724aeff740
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9834849b-fa80-4a42-874c-e5e363d0fffc'
+  module:
+    - block_content
+  theme:
+    - barkkenny
+id: barkkenny_elblogdekennyman
+theme: barkkenny
+region: footer_fourth
+weight: 0
+provider: null
+plugin: 'block_content:9834849b-fa80-4a42-874c-e5e363d0fffc'
+settings:
+  id: 'block_content:9834849b-fa80-4a42-874c-e5e363d0fffc'
+  label: 'Blog of KennyMan'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

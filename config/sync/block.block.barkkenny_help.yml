@@ -1,0 +1,22 @@
+uuid: 432aac6c-6f48-46cd-82d1-8dc10e0223cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - barkkenny
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: barkkenny_help
+theme: barkkenny
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

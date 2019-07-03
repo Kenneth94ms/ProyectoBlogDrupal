@@ -1,0 +1,22 @@
+uuid: 0fc7e08c-a2af-4e10-b9e8-f86d5ccfbd12
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - barkkenny
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: barkkenny_powered
+theme: barkkenny
+region: footer_fifth
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

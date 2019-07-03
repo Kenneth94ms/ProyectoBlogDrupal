@@ -1,0 +1,146 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/proyectofinalpost.ddev.local\/en\/comment\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/comment\/comment"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/comment\/comment\/uid": [
+            {
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/comment\/comment\/entity_id": [
+            {
+                "href": "http:\/\/proyectofinalpost.ddev.local\/en\/node\/3?_format=hal_json"
+            }
+        ]
+    },
+    "cid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d2d36d2c-db32-4d29-99f1-9aff7f281221"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "comment_type": [
+        {
+            "target_id": "comment"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/comment\/comment\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6d6ad9b8-f2ca-480d-9741-421f8d26b912"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/comment\/comment\/entity_id": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/proyectofinalpost.ddev.local\/en\/node\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/post"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "97e8eac6-0d07-41a7-986e-c48310cd69e1"
+                    }
+                ]
+            }
+        ]
+    },
+    "subject": [
+        {
+            "value": "Sad",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-07-02T15:33:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-07-02T15:33:11+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "thread": [
+        {
+            "value": "01\/"
+        }
+    ],
+    "entity_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "field_name": [
+        {
+            "value": "field_comentarios"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "content_translation_source": [
+        {
+            "value": "und",
+            "lang": "en"
+        }
+    ],
+    "content_translation_outdated": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "comment_body": [
+        {
+            "value": "<p>Comment<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Comment<\/p>",
+            "lang": "en"
+        }
+    ]
+}

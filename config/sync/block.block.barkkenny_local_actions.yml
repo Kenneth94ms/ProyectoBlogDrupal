@@ -1,0 +1,20 @@
+uuid: 14ab5b48-8182-4997-868f-2a67f4299330
+langcode: en
+status: true
+dependencies:
+  theme:
+    - barkkenny
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: barkkenny_local_actions
+theme: barkkenny
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

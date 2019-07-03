@@ -1,0 +1,20 @@
+uuid: 6e2f5663-4e0a-4b37-b259-50b54f4cc4c4
+langcode: es
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - barkkenny
+id: barkkenny_alternadordeidioma
+theme: barkkenny
+region: breadcrumb
+weight: -7
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switch'
+  provider: language
+  label_display: visible
+visibility: {  }

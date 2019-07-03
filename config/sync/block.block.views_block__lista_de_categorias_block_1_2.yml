@@ -1,0 +1,30 @@
+uuid: 32952954-3477-41a2-8a96-fe9102383eaa
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.lista_de_categorias
+  module:
+    - system
+    - views
+  theme:
+    - barkkenny
+id: views_block__lista_de_categorias_block_1_2
+theme: barkkenny
+region: sidebar_second
+weight: -10
+provider: null
+plugin: 'views_block:lista_de_categorias-block_1'
+settings:
+  id: 'views_block:lista_de_categorias-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /categoriaspost
+    negate: true
+    context_mapping: {  }

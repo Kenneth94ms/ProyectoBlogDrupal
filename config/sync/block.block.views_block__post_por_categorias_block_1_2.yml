@@ -1,0 +1,24 @@
+uuid: b0c4d330-2b9c-4a96-9b0f-5de3bcac96a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.post_por_categorias
+  module:
+    - views
+  theme:
+    - barkkenny
+id: views_block__post_por_categorias_block_1_2
+theme: barkkenny
+region: sidebar_second
+weight: -9
+provider: null
+plugin: 'views_block:post_por_categorias-block_1'
+settings:
+  id: 'views_block:post_por_categorias-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }
